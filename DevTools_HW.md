@@ -1,5 +1,5 @@
- Please, find the screen video here: https://drive.google.com/file/d/1YS6kwJu-cULCSZ6DR22CAbSi8gHDfz8w/view?usp=sharing.
 
+ #### Please, find the screen video here: https://drive.google.com/file/d/1YS6kwJu-cULCSZ6DR22CAbSi8gHDfz8w/view?usp=sharing.
  0. Открыть сайт http://itcareer.pythonanywhere.com/
  1. Открыть Chrome DevTools
  2. Зайти в панель Elements
