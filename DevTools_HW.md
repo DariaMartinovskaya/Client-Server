@@ -1,55 +1,55 @@
 
  #### Please, find the screen video here: https://drive.google.com/file/d/1YS6kwJu-cULCSZ6DR22CAbSi8gHDfz8w/view?usp=sharing.
- 0. Открыть сайт http://itcareer.pythonanywhere.com/
- 1. Открыть Chrome DevTools
- 2. Зайти в панель Elements
- 3. Найти инспектором кнопку Submit и выровнять слово Submit по центру
- 4. Включить режим мобильного деввайса (Device Mode)
- 5. Выставить Dimensions: Responsive 
- 6. Выбрать Responsive - Mobile
- 7. Продемонстрировать работу дизайна Responsive
- 8. Выставить Dimensions: Adaptive (select device)
- 9. Создать свой девайс (Apple iPhone 14 Plus: 428 x 926)
- 10. Выставить Throttling low-end mobile
- 11. Обновить страницу
- 12. Перевести в ландшафтные режим
- 13. Выключить Device Mode
- 14. Открыть панель Console
- 15. Найти 2 сообщения Error в логах
- 16. Сохранить эти 2 сообщения лога как файл на компьютер
- 17. Найти 1 сообщение verbose
- 18. Пролистать логи Warnings, Info, User Messages
- 19. Открыть вкладку Sources
- 20. Открыть файл Index
- 21. Открыть вкладку Network
- 22. В урле отправить отправить http://162.55.220.72:5005/object_info_3?age=32&salary=1000&name=name
- 23. Найти лог request/responce 
- 24. Открыть вкладку Headers
- 25. Просмотреть General, Response Headers, Request Headers
- 26. Найти и скопировать в новый текстовый файл header - User-Agent
- 27. Открыть вкладку Preview
- 28. Развернуть все уровни вложенности JSON
- 29. Открыть вкладку Application
- 30. Развернуть все Storage в левом столбце
- 31. Зайти в Cache Storage и Application Cache
- 32. Там везде будет пусто
- 33. Открыть любой сайт который хотите. (Введите урл сайта в адресную строку и нажмите Enter)
- 34. Откройте вкладку LightHouse
- 35. Нажмите Generate report
- 36. Установить в браузер бесплатный AdBlocker
- 37. Установить в браузер Json Viewer
- 38. Зайти на сайт https://dzengi.com
- 39. Сделать и сохранить скриншот видимой части страницы сайта
- 40. Сделать и сохранить скриншот всего сайта
- 41. Изменить локацию GPS. Продемонстрировать на сайте Гугл карт 
- 42. Изменить локацию GPS второй раз. Продемонстрировать на сайте Гугл карт
- 43. Найти интерфейс для изменения User-Agent
- 44. Подставить другой User-Agent
- 45. Отправить запрос на http://162.55.220.72:5005/object_info_3?age=32&salary=1000&name=name
- 46. Проверить изменился ли ваш нативный User-Agent на новый, подставленный 
- 47. Создать свой юзер агент 
- 48. Повторить пункты 45, 46
- 49. Найти интерфейс для изменения/добавления параметров Throttling
- 50. Создать свои параметры плохого соединения и проверить как будет загружаться страница 
- 51. Найти интерфейс для изменения/добавления параметров Locations 
- 52. Проверить на Google карте как применяются изменения локации
+ 0. Open website http://itcareer.pythonanywhere.com/
+ 1. Open Chrome DevTools
+ 2. Open Elements panel
+ 3. Select Submit button by insector and align word Submit to the center
+ 4. Turn on Device Mode
+ 5. Choose Dimensions: Responsive 
+ 6. Choose Responsive - Mobile
+ 7. Demonstrate work of Responsive design
+ 8. Choose Dimensions: Adaptive (select device)
+ 9. Create new device (Apple iPhone 14 Plus: 428 x 926)
+ 10. Choose Throttling low-end mobile
+ 11. Udate the page
+ 12. Change to landscape Mode
+ 13. Turn off Device Mode
+ 14. Open Console panel
+ 15. Find 2 log messages Error
+ 16. Save these 2 log messages as a file to the computer
+ 17. Find 1 message verbose
+ 18. Scroll Warnings, Info, User Messages logs
+ 19. Open Sources Tab
+ 20. Open Index file
+ 21. Open Network Tab
+ 22. Send http://162.55.220.72:5005/object_info_3?age=32&salary=1000&name=name in URL
+ 23. Find request/responce log
+ 24. Open Headers Tab
+ 25. View General, Response Headers, Request Headers
+ 26. Find header - User-Agent and copy to a new text file
+ 27. Open Preview Tab
+ 28. Expand all JSON nesting levels
+ 29. Open Application Tab
+ 30. Expand all Storage in the left column
+ 31. Open Cache Storage and Application Cache
+ 32. It will be empty everywhere
+ 33. Open any website. (Fill in the website URL in the address line and click Enter)
+ 34. Open LightHouse Tab
+ 35. Click Generate report
+ 36. Install free AdBlocker in the browser
+ 37. Install Json Viewer in the browser
+ 38. Open https://dzengi.com website
+ 39. Take and save a screenshot of the visible part of a website page
+ 40. Take and save a screenshot of the whole website
+ 41. Change GPS location. Demonstrate on Google Maps website
+ 42. Change GPS location once again. Demonstrate on Google Maps website
+ 43. Find an interface to change User-Agent
+ 44. Change User-Agent to another one
+ 45. Send a request to http://162.55.220.72:5005/object_info_3?age=32&salary=1000&name=name
+ 46. Check if our native User-Agent was changed to the new substitute one
+ 47. Create a new User-Agent
+ 48. Repeat points 45, 46
+ 49. Find an interface to change/add Throttling params
+ 50. Create new params of low connection and check how the page is loaded
+ 51. Find an interface to change/add Locations params
+ 52. Check how location changes apply using Google Maps
