@@ -3,7 +3,7 @@
 In video below I used Chrome DevTools to demonstrate possibilities provided for testing, including but not limited to: 
 - inspecting elements
 - viewing HTTP Requests and Responses
-- simulating bad internet connections
+- simulating poor internet connections
 - emulating device settings
 - diferent geographical locations
 
