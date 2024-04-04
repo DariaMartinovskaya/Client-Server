@@ -1,6 +1,6 @@
  ## DevTools HW
  
- #### Link to the HW screen video: https://drive.google.com/file/d/1YS6kwJu-cULCSZ6DR22CAbSi8gHDfz8w/view?usp=sharing.
+ ## Link to the screen video: https://drive.google.com/file/d/1YS6kwJu-cULCSZ6DR22CAbSi8gHDfz8w/view?usp=sharing.
  #### 0. Open website http://itcareer.pythonanywhere.com/
  #### 1. Open Chrome DevTools
  #### 2. Open Elements panel
