@@ -5,6 +5,6 @@ In <a href="https://github.com/DariaMartinovskaya/DevTools/blob/main/DevTools_HW
 - viewing HTTP Requests and Responses
 - simulating poor internet connections
 - emulating device settings
-- diferent geographical locations
+- emulating diferent geographical locations
 
 Steps are also described. 
