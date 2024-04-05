@@ -6,5 +6,3 @@ In <a href="https://github.com/DariaMartinovskaya/DevTools/blob/main/DevTools_HW
 - simulating poor internet connections
 - emulating device settings
 - emulating diferent geographical locations
-
-Steps are also described. 
