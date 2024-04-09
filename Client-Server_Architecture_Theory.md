@@ -62,7 +62,7 @@ In 3-tier architecture, each server (tier 2 and 3) performs a specialized task o
 Examples: MakeMyTrip.com, Sales Force enterprise application, Indian Railways – IRCTC, Amazon.com.
 
 
-## OSI Model and TCP/IP Model
+## OSI Model and TCP/IP Models
 
 Data communication is a process or act in which we can send or receive data. For data communication two models are available:
 
