@@ -3,7 +3,7 @@
 ### [Types of Client-Server Architecture](https://github.com/DariaMartinovskaya/Client-Server/blob/main/Client-Server_Architecture_Theory.md#types-of-client-server-architectures)
 ### [OSI Model and TCP/IP Model](https://github.com/DariaMartinovskaya/Client-Server/blob/main/Client-Server_Architecture_Theory.md#osi-model-and-tcpip-model-1)
 ### [HTTP Protocol](https://github.com/DariaMartinovskaya/Client-Server/blob/main/Client-Server_Architecture_Theory.md#http-protocol-1)
-### [API]
+### [API](https://github.com/DariaMartinovskaya/Client-Server/blob/main/Client-Server_Architecture_Theory.md#api-1)
 ### [Proxy](https://github.com/DariaMartinovskaya/Client-Server/blob/main/Client-Server_Architecture_Theory.md#proxy-1)
 
 # Client-Server Architecture
