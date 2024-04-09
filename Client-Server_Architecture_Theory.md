@@ -1,10 +1,10 @@
 
 ## Content
 ### [Types of Client-Server Architecture](https://github.com/DariaMartinovskaya/Client-Server/blob/main/Client-Server_Architecture_Theory.md#types-of-client-server-architectures)
+### [Proxy](https://github.com/DariaMartinovskaya/Client-Server/blob/main/Client-Server_Architecture_Theory.md#proxy-1)
 ### [OSI Model and TCP/IP Model](https://github.com/DariaMartinovskaya/Client-Server/blob/main/Client-Server_Architecture_Theory.md#osi-model-and-tcpip-model-1)
 ### [HTTP Protocol](https://github.com/DariaMartinovskaya/Client-Server/blob/main/Client-Server_Architecture_Theory.md#http-protocol-1)
 ### [API](https://github.com/DariaMartinovskaya/Client-Server/blob/main/Client-Server_Architecture_Theory.md#api-1)
-### [Proxy](https://github.com/DariaMartinovskaya/Client-Server/blob/main/Client-Server_Architecture_Theory.md#proxy-1)
 
 # Client-Server Architecture
 A Client (=user agent) is either a person or an organization using as a service. In the IT context, the client is a computer/device that actually uses the service or accepts the information (Browser, Postman, SOAP UI, JMeter, Java app may act as a client).
@@ -68,7 +68,17 @@ In 3-tier architecture, each server (tier 2 and 3) performs a specialized task o
 
 Examples: MakeMyTrip.com, Sales Force enterprise application, Indian Railways – IRCTC, Amazon.com.
 
+## Proxy
+A proxy server is an intermediary server placed between the client and the server. As in the image below, a client forwards the request to the Proxy, the proxy forwards the request to the server and forwards the incoming response to the client.
+![6](https://miro.medium.com/v2/resize:fit:1364/format:webp/1*J3vKylY8M22ByuTyQRADtA.png)
 
+Functions:
+- Data cash
+- Filtering
+- Load balancer
+- Authentication (access control)
+- Historing
+- 
 ## OSI Model and TCP/IP Model
 
 Data communication is a process or act in which we can send or receive data. For data communication two models are available:
@@ -398,17 +408,6 @@ The application programming interface must be clearly distinguished from a user 
 ![API](https://www.altexsoft.com/media/2019/06/1.png)
 
 The working principle of an API is commonly expressed through the request-response communication between a client and a server. The client is any front-end application that a user interacts with. The server is in charge of backend logic and database operations. In this scenario, an API works as a middle layer between the client and the server, making it possible to send data requests and responses.
-
-## Proxy
-A proxy server is an intermediary server placed between the client and the server. As in the image below, a client forwards the request to the Proxy, the proxy forwards the request to the server and forwards the incoming response to the client.
-![6](https://miro.medium.com/v2/resize:fit:1364/format:webp/1*J3vKylY8M22ByuTyQRADtA.png)
-
-Functions:
-- Data cash
-- Filtering
-- Load balancer
-- Authentication (access control)
-- Historing
 
 Sources: 
 1. https://www.simplilearn.com/what-is-client-server-architecture-article
