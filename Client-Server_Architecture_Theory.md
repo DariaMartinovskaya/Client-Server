@@ -147,6 +147,7 @@ The Hypertext Transfer Protocol (HTTP) is the foundation of the World Wide Web, 
 
 ![8](https://developer.mozilla.org/en-US/docs/Learn/Server-side/First_steps/Client-Server_overview/web_application_with_html_and_steps.png)
 
+#### HTTP Request
 
 HTTP request includes:
 - A URL identifying the target server and resource (e.g. an HTML file, a particular data point on the server, or a tool to run).
