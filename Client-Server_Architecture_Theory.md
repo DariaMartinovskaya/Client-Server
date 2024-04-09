@@ -1,4 +1,9 @@
 # Client-Server Architecture
+## Content
+### [Types of Client-Server Architecture](https://github.com/DariaMartinovskaya/Client-Server/blob/main/Client-Server_Architecture_Theory.md#types-of-client-server-architectures)
+### [Load balancer](https://github.com/DariaMartinovskaya/Client-Server/blob/main/Client-Server_Architecture_Theory.md#load-balancer)
+### [HTTP Protocol](https://github.com/DariaMartinovskaya/Client-Server/blob/main/Client-Server_Architecture_Theory.md#http-protocol)
+### [Proxy](https://github.com/DariaMartinovskaya/Client-Server/blob/main/Client-Server_Architecture_Theory.md#proxy)
 
 A Client (=user agent) is either a person or an organization using as a service. In the IT context, the client is a computer/device that actually uses the service or accepts the information (Browser, Postman, SOAP UI, JMeter, Java app may act as a client).
 
