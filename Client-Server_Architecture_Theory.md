@@ -3,6 +3,7 @@
 ### [Types of Client-Server Architecture](https://github.com/DariaMartinovskaya/Client-Server/blob/main/Client-Server_Architecture_Theory.md#types-of-client-server-architectures)
 ### [OSI Model and TCP/IP Model](https://github.com/DariaMartinovskaya/Client-Server/blob/main/Client-Server_Architecture_Theory.md#osi-model-and-tcpip-model-1)
 ### [HTTP Protocol](https://github.com/DariaMartinovskaya/Client-Server/blob/main/Client-Server_Architecture_Theory.md#http-protocol-1)
+### [API]
 ### [Proxy](https://github.com/DariaMartinovskaya/Client-Server/blob/main/Client-Server_Architecture_Theory.md#proxy-1)
 
 # Client-Server Architecture
@@ -387,6 +388,15 @@ Because data can be sent with or without the use of SSL, one way to indicate a s
 
 Transport Layer Security (TLS) is an update to the SSL protocol. 
 
+## API
+API stands for Application Programming Interface. 
+An API is a set of programming code that enables data transmission between one software product and another. It also contains the terms of this data exchange.
+The application programming interface must be clearly distinguished from a user interface. The user interface accepts data from users, forwards it to the application for processing, and returns the results to the user. The API does not interact with the user, but processes the data received from one program module and transmits the results back to the other module. Here’s how it happens.
+
+![API](https://www.altexsoft.com/media/2019/06/1.png)
+
+The working principle of an API is commonly expressed through the request-response communication between a client and a server. The client is any front-end application that a user interacts with. The server is in charge of backend logic and database operations. In this scenario, an API works as a middle layer between the client and the server, making it possible to send data requests and responses.
+
 ## Proxy
 A proxy server is an intermediary server placed between the client and the server. As in the image below, a client forwards the request to the Proxy, the proxy forwards the request to the server and forwards the incoming response to the client.
 ![6](https://miro.medium.com/v2/resize:fit:1364/format:webp/1*J3vKylY8M22ByuTyQRADtA.png)
@@ -414,3 +424,4 @@ Sources:
 13. https://learning.mlytics.com/the-internet/http-response-status-codes/
 14. https://developer.mozilla.org/en-US/docs/Web/HTTP/Messages
 15. https://www.godaddy.com/resources/skills/whats-an-ssl-port-a-technical-guide-for-https
+16. https://www.altexsoft.com/blog/what-is-api-definition-types-specifications-documentation/
