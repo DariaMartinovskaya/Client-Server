@@ -78,7 +78,7 @@ Functions:
 - Load balancer
 - Authentication (access control)
 - Historing
-- 
+  
 ## OSI Model and TCP/IP Model
 
 Data communication is a process or act in which we can send or receive data. For data communication two models are available:
