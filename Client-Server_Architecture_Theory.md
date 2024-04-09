@@ -393,7 +393,7 @@ API stands for Application Programming Interface.
 
 An API is a set of programming code that enables data transmission between one software product and another. It also contains the terms of this data exchange.
 
-The application programming interface must be clearly distinguished from a user interface. The user interface accepts data from users, forwards it to the application for processing, and returns the results to the user. The API does not interact with the user, but processes the data received from one program module and transmits the results back to the other module. Here’s how it happens.
+The application programming interface must be clearly distinguished from a user interface. The user interface accepts data from users, forwards it to the application for processing, and returns the results to the user. The API does not interact with the user, but processes the data received from one program module and transmits the results back to the other module. 
 
 ![API](https://www.altexsoft.com/media/2019/06/1.png)
 
