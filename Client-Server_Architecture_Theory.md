@@ -398,20 +398,19 @@ Functions:
 - Authentication (access control)
 - Historing
 
-###### Sources: 
-
-###### 1. https://www.simplilearn.com/what-is-client-server-architecture-article
-###### 2. https://medium.com/@nirajranasinghe/understanding-client-server-architecture-in-system-design-9da079efde60
-###### 3. https://ccm.net/computing/networks/10095-networking-3-tier-client-server-architecture/
-###### 4. https://www.geeksforgeeks.org/difference-between-osi-model-and-tcp-ip-model/
-###### 5. https://www.imperva.com/learn/application-security/osi-model/#:~:text=Cybersecurity%20101-,What%20Is%20the%20OSI%20Model,companies%20in%20the%20early%201980s
-###### 6. https://www.avg.com/en/signal/what-is-tcp-ip#:~:text=There%20are%20four%20layers%20of,when%20the%20data%20is%20received.
-###### 7. https://www.avast.com/c-what-is-an-ip-address
-###### 8. https://www.avg.com/en/signal/what-is-tcp-ip#:~:text=There%20are%20four%20layers%20of,when%20the%20data%20is%20received.
-###### 9. https://www.linkedin.com/advice/0/what-role-load-balancing-client-server-architecture-my4ke
-###### 10. https://developer.mozilla.org/en-US/docs/Learn/Server-side/First_steps/Client-Server_overview
-###### 11. https://alitunacanonar.medium.com/what-is-proxy-server-and-how-does-it-work-2d9224cc459e
-###### 12. https://medium.com/@adilrk/http-request-and-response-e7da8eb3a00c
-###### 13. https://learning.mlytics.com/the-internet/http-response-status-codes/
-###### 14. https://developer.mozilla.org/en-US/docs/Web/HTTP/Messages
-###### 15. https://www.godaddy.com/resources/skills/whats-an-ssl-port-a-technical-guide-for-https
+Sources: 
+1. https://www.simplilearn.com/what-is-client-server-architecture-article
+2. https://medium.com/@nirajranasinghe/understanding-client-server-architecture-in-system-design-9da079efde60
+3. https://ccm.net/computing/networks/10095-networking-3-tier-client-server-architecture/
+4. https://www.geeksforgeeks.org/difference-between-osi-model-and-tcp-ip-model/
+5. https://www.imperva.com/learn/application-security/osi-model/#:~:text=Cybersecurity%20101-,What%20Is%20the%20OSI%20Model,companies%20in%20the%20early%201980s
+6. https://www.avg.com/en/signal/what-is-tcp-ip#:~:text=There%20are%20four%20layers%20of,when%20the%20data%20is%20received.
+7. https://www.avast.com/c-what-is-an-ip-address
+8. https://www.avg.com/en/signal/what-is-tcp-ip#:~:text=There%20are%20four%20layers%20of,when%20the%20data%20is%20received.
+9. https://www.linkedin.com/advice/0/what-role-load-balancing-client-server-architecture-my4ke
+10. https://developer.mozilla.org/en-US/docs/Learn/Server-side/First_steps/Client-Server_overview
+11. https://alitunacanonar.medium.com/what-is-proxy-server-and-how-does-it-work-2d9224cc459e
+12. https://medium.com/@adilrk/http-request-and-response-e7da8eb3a00c
+13. https://learning.mlytics.com/the-internet/http-response-status-codes/
+14. https://developer.mozilla.org/en-US/docs/Web/HTTP/Messages
+15. https://www.godaddy.com/resources/skills/whats-an-ssl-port-a-technical-guide-for-https
