@@ -9,4 +9,4 @@ In <a href="https://github.com/DariaMartinovskaya/DevTools/blob/main/DevTools_HW
 - emulating diferent geographical locations
 
 ## Theory
-Here is a basic theory of client-server architecture.
+<a href="https://github.com/DariaMartinovskaya/Client-Server/blob/main/Client-Server_Architecture_Theory.md" target="_blank">Here</a> is a basic theory of client-server architecture.
