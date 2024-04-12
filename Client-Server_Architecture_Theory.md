@@ -446,6 +446,20 @@ Successful/retry logic for reliable messaging functionality. REST APIs lack a st
 
 SOAP supports ACID compliance. SOAP facilitates better ACID compliance than REST APIs. This leads to fewer anomalies and promotes database integrity by ensuring all transactions adhere to stipulated principles. ACID compliance is quite useful, especially when handling financial or sensitive information.
 
+#### WSDL and XSD
+
+Web Services Description Language (WSDL) is an XML-based language for describing web services.
+
+A WSDL file is written in XML. It defines the operations in a web service, the messages used by each operation, and what each message should look like.
+
+![WSDL](https://assets.tutorialworks.com/images/wsdl-file-describes.png)
+
+A valid WSDL file contains all the information you need to send a request to a web service. You can think of a WSDL file as an instruction manual for interacting with a web service. It defines the rules and format for the communication between your application and the web service you’re trying to talk to. A WSDL file is usually given to consumers of a web service, either directly as a download from the service itself, or distributed separately.
+
+XSD stands for XML Schema Definition. It is a language that defines the structure, content, and constraints of XML documents. XSD enables XML developers to validate their documents against a schema, and to generate XML instances from a schema. XSD defines elements, attributes, types, and groups, as well as complex rules for data validation, inheritance, and namespaces. XSD is itself an XML document, and can be referenced by other XML documents using the schemaLocation or noNamespaceSchemaLocation attributes.
+
+WSDL and XSD are closely related, as they both use XML syntax and semantics to describe web service data. WSDL relies on XSD to define the data types of the web service messages, using the types element. WSDL can import XSD schemas from external files or inline them within the WSDL document. WSDL can also use other schema languages, such as RELAX NG or DTD, but XSD is the most common and widely supported one. XSD can also reference WSDL documents, using the import element, to reuse the data types defined by the web service.
+
 #### Conclusions
 
 A RESTful approach is the better option for applications that require CRUD operations (create, read, update, and delete). A good example is a content management system (CMS), which uses standard HTTP methods—POST, GET, PUT, and DELETE—to create and maintain entities. Additionally, REST’s ability to cache responses makes it a good fit for high-demand applications where certain requests are made frequently. Finally, REST is very popular, and companies that use a RESTful design for public APIs are able to cater to a wider range of developers who have dealt with REST before.
@@ -497,3 +511,4 @@ Sources:
 15. https://www.godaddy.com/resources/skills/whats-an-ssl-port-a-technical-guide-for-https
 16. https://www.altexsoft.com/blog/what-is-api-definition-types-specifications-documentation/
 17. https://www.upwork.com/resources/soap-vs-rest
+18. https://www.tutorialworks.com/wsdl/
