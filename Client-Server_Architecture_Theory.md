@@ -413,6 +413,8 @@ The working principle of an API is commonly expressed through the request-respon
 
 REST, which stands for representational state transfer, is an essential API in web services. It makes use of the HTTP protocol and URIs (uniform resource identifier) to facilitate communication between different platforms.
 
+![URI](https://velog.velcdn.com/images%2Fsjho0428%2Fpost%2F33f79901-f5a2-4a4e-a490-3a4cb24f47a1%2F다운로드.png)
+
 URIs uniquely identify resources on the internet. For example, servers and websites have different URIs which allow them to communicate with one another. HTTP protocol determines how resources like text, images, videos, and other data types are exchanged on the web and includes methods like GET, PUT, POST, and DELETE.
 
 To communicate with different systems, REST APIs use the JSON format to store and transport data. JSON is a lightweight data format that’s compatible with different browsers and supports different data types like arrays, strings, objects, and lists. Nevertheless, REST APIs can also use the SOAP protocol.
