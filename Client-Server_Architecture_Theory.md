@@ -3,6 +3,8 @@
 - ### [OSI Model and TCP/IP Model](https://github.com/DariaMartinovskaya/Client-Server/blob/main/Client-Server_Architecture_Theory.md#osi-model-and-tcpip-model-1)
 - ### [HTTP Protocol](https://github.com/DariaMartinovskaya/Client-Server/blob/main/Client-Server_Architecture_Theory.md#http-protocol-1)
 - ### [API](https://github.com/DariaMartinovskaya/Client-Server/blob/main/Client-Server_Architecture_Theory.md#api-1)
+- ### [REST API](https://github.com/DariaMartinovskaya/Client-Server/edit/main/Client-Server_Architecture_Theory.md#rest-api)
+- ### [SOAP](https://github.com/DariaMartinovskaya/Client-Server/edit/main/Client-Server_Architecture_Theory.md#soap)
 
 # Client-Server Architecture
 A Client (=user agent) is either a person or an organization using as a service. In the IT context, the client is a computer/device that actually uses the service or accepts the information (Browser, Postman, SOAP UI, JMeter, Java app may act as a client).
@@ -407,6 +409,45 @@ The application programming interface must be clearly distinguished from a user 
 
 The working principle of an API is commonly expressed through the request-response communication between a client and a server. The client is any front-end application that a user interacts with. The server is in charge of backend logic and database operations. In this scenario, an API works as a middle layer between the client and the server, making it possible to send data requests and responses.
 
+### REST API
+
+REST, which stands for representational state transfer, is an essential API in web services. It makes use of the HTTP protocol and URIs (uniform resource identifier) to facilitate communication between different platforms.
+
+URIs uniquely identify resources on the internet. For example, servers and websites have different URIs which allow them to communicate with one another. HTTP protocol determines how resources like text, images, videos, and other data types are exchanged on the web and includes methods like GET, PUT, POST, and DELETE.
+
+To communicate with different systems, REST APIs use the JSON format to store and transport data. JSON is a lightweight data format that’s compatible with different browsers and supports different data types like arrays, strings, objects, and lists. Nevertheless, REST APIs can also use the SOAP protocol.
+
+Though REST APIs have a clear architecture, making them relatively easy to build and scale, they can also quickly grow in size and become complex. However, their complexity varies depending on the tech stack used in their development, the production environment they’re deployed to, and what they actually accomplish.
+
+Building REST APIs can enhance scalability, increase browser client compatibility, and lessen security requirements. REST APIs also have enhanced discoverability and fewer resource limitations. In this context, discoverability involves making an API highly usable to developers. For instance, individuals can quickly explore and understand the resources a REST API provides and through which URLs those resources are provided.
+
+Some quick REST information:
+
+- REST is all about simplicity. REST APIs rely on HTTP protocols with straightforward methods for communication and data exchange. To illustrate, the GET method is used for fetching data, POST for submitting data to a server, PUT for updating existing data or resources, and DELETE for removing specific resources.
+- REST APIs facilitate client-server communications and architectures. In other words, servers send data to client applications and receive feedback, which can be processed and stored in a database or used for other purposes.
+- REST APIs use a single uniform interface. Regardless of their size, REST APIs operate the same way using a uniform interface. This means they can provide the same type of data to applications running in different browsers or operating systems.
+- REST is optimized for the web. Using the JSON data format makes it compatible with browsers.‍
+- REST is known for excellent performance and scalability. But, like any technology, it can get bogged down or slow down your app.
+
+### SOAP
+SOAP (also known as Simple Object Access Protocol) is a secure way to build APIs, and it works by encoding data in the XML format. REST (Representational State Transfer) APIs are more flexible, and they support data transfer in different formats, including XML, HTML, plain text, JSON, and more. When comparing SOAP vs REST, both have their benefits and disadvantages.
+
+While SOAP APIs can be used in simple web services scenarios, their robust features and enhanced security are more ideal for enterprise-type situations.
+
+Reasons you may want to develop an application with a SOAP API include:
+
+SOAP has much tighter security. In addition to SSL support, WS-Security is a built-in standard that gives SOAP web services enterprise-level security features.
+
+Successful/retry logic for reliable messaging functionality. REST APIs lack a standardized messaging system and mainly handle communication failures by retrying various requests. On the other hand, SOAP APIs have built-in retry logic, allowing them to handle errors more effectively and provide better reliability.
+
+SOAP supports ACID compliance. SOAP facilitates better ACID compliance than REST APIs. This leads to fewer anomalies and promotes database integrity by ensuring all transactions adhere to stipulated principles. ACID compliance is quite useful, especially when handling financial or sensitive information.
+
+#### Conclusions
+
+A RESTful approach is the better option for applications that require CRUD operations (create, read, update, and delete). A good example is a content management system (CMS), which uses standard HTTP methods—POST, GET, PUT, and DELETE—to create and maintain entities. Additionally, REST’s ability to cache responses makes it a good fit for high-demand applications where certain requests are made frequently. Finally, REST is very popular, and companies that use a RESTful design for public APIs are able to cater to a wider range of developers who have dealt with REST before.
+
+On the other hand, systems that have strict API security requirements and regulations may benefit from a SOAP-based approach because of its built-in security measures. For instance, its support for WS-Security and strongly-typed contracts make SOAP a better fit for systems that send and receive highly sensitive data, such as financial and healthcare information.
+
 Sources: 
 1. https://www.simplilearn.com/what-is-client-server-architecture-article
 2. https://medium.com/@nirajranasinghe/understanding-client-server-architecture-in-system-design-9da079efde60
@@ -424,3 +465,4 @@ Sources:
 14. https://developer.mozilla.org/en-US/docs/Web/HTTP/Messages
 15. https://www.godaddy.com/resources/skills/whats-an-ssl-port-a-technical-guide-for-https
 16. https://www.altexsoft.com/blog/what-is-api-definition-types-specifications-documentation/
+17. https://www.upwork.com/resources/soap-vs-rest
