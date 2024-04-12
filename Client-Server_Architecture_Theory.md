@@ -452,6 +452,33 @@ A RESTful approach is the better option for applications that require CRUD opera
 
 On the other hand, systems that have strict API security requirements and regulations may benefit from a SOAP-based approach because of its built-in security measures. For instance, its support for WS-Security and strongly-typed contracts make SOAP a better fit for systems that send and receive highly sensitive data, such as financial and healthcare information.
 
+#### SOAP and REST alternatives
+While SOAP and REST have been the primary choices for building APIs during the last decades, other alternatives are becoming increasingly common.
+
+##### JSON
+
+JSON (JavaScript object notation) is an open standard file format used to transmit data objects between many applications. It is a lightweight format to store and transfer data and is often used when sending data from a server to a web page. The simplicity and speedy transmission of JSON make it a viable alternative in many situations.
+
+##### gRPC
+
+gRPC (remote procedure call or RPC) is an open-source system developed by Google that uses HTTP/2. It is commonly used to provide a connection to different applications in a microservices architecture, and it allows mobile devices to communicate with backend services.
+
+The advantages of gRPC include more lightweight messages than JSON, high performance, built-in code generation, and support for more connection options such as streaming data.
+
+##### Falcor
+
+Developed by Netflix, Falcor is a JavaScript library that assists in data fetching. It allows you to retrieve data from different sources and combine it into a single model. As a result, you can more easily pass data through different UI components and display it to users.
+
+Falcor also supports client-side caching, meaning you can retrieve values from the local storage instead of making random network calls—which can otherwise be time-consuming and resource-intensive.
+
+##### GraphQL
+
+GraphQL is a query language used to efficiently load data from a server to a client. Created by Facebook, this relatively new technology supports reading, writing, and subscribing to changes to data, and GraphQL servers are available for languages like JavaScript, Python, C++, and more.
+
+Just like REST, GraphQL communicates using HTTP and uses the JSON data format. One of the key differences and benefits is the possibility to specify the data you want to be returned from the server in one API call.
+
+For example, if we want to fetch a customer, a customer order, and the order’s shipment status using REST, we would have to conduct separate HTTP requests for each piece of data. With GraphQL, we can fetch everything using one request, which eliminates the HTTP overhead for each call.
+
 Sources: 
 1. https://www.simplilearn.com/what-is-client-server-architecture-article
 2. https://medium.com/@nirajranasinghe/understanding-client-server-architecture-in-system-design-9da079efde60
