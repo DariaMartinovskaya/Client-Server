@@ -4,7 +4,7 @@
 - ### [HTTP Protocol](https://github.com/DariaMartinovskaya/Client-Server/blob/main/Client-Server_Architecture_Theory.md#http-protocol-1)
 - ### [API](https://github.com/DariaMartinovskaya/Client-Server/blob/main/Client-Server_Architecture_Theory.md#api-1)
 - ### [REST API](https://github.com/DariaMartinovskaya/Client-Server/edit/main/Client-Server_Architecture_Theory.md#rest-api)
-- ### [SOAP](https://github.com/DariaMartinovskaya/Client-Server/edit/main/Client-Server_Architecture_Theory.md#soap)
+- ### [SOAP](https://github.com/DariaMartinovskaya/Client-Server/blob/main/Client-Server_Architecture_Theory.md#soap-1)
 
 # Client-Server Architecture
 A Client (=user agent) is either a person or an organization using as a service. In the IT context, the client is a computer/device that actually uses the service or accepts the information (Browser, Postman, SOAP UI, JMeter, Java app may act as a client).
