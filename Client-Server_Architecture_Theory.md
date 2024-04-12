@@ -3,7 +3,7 @@
 - ### [OSI Model and TCP/IP Model](https://github.com/DariaMartinovskaya/Client-Server/blob/main/Client-Server_Architecture_Theory.md#osi-model-and-tcpip-model-1)
 - ### [HTTP Protocol](https://github.com/DariaMartinovskaya/Client-Server/blob/main/Client-Server_Architecture_Theory.md#http-protocol-1)
 - ### [API](https://github.com/DariaMartinovskaya/Client-Server/blob/main/Client-Server_Architecture_Theory.md#api-1)
-- ### [REST API](https://github.com/DariaMartinovskaya/Client-Server/edit/main/Client-Server_Architecture_Theory.md#rest-api)
+- ### [REST API](https://github.com/DariaMartinovskaya/Client-Server/blob/main/Client-Server_Architecture_Theory.md#rest-api-1)
 - ### [SOAP](https://github.com/DariaMartinovskaya/Client-Server/blob/main/Client-Server_Architecture_Theory.md#soap-1)
 
 # Client-Server Architecture
