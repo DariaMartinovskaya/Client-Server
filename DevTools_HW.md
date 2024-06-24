@@ -14,7 +14,7 @@
  #### 8. Choose Dimensions: Adaptive (select device)
  #### 9. Create new device (Apple iPhone 14 Plus: 428 x 926)
  #### 10. Choose Throttling low-end mobile
- #### 11. Udate the page
+ #### 11. Update the page
  #### 12. Change to landscape Mode
  #### 13. Turn off Device Mode
  #### 14. Open Console panel
