@@ -6,7 +6,7 @@
  #### 0. Open website http://itcareer.pythonanywhere.com/
  #### 1. Open Chrome DevTools
  #### 2. Open Elements panel
- #### 3. Select Submit button by insector and align word Submit to the center
+ #### 3. Select Submit button by inspector and align word Submit to the center
  #### 4. Turn on Device Mode
  #### 5. Choose Dimensions: Responsive 
  #### 6. Choose Responsive - Mobile
